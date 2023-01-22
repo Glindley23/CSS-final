@@ -10,7 +10,7 @@ function ColorForm(props){
         
         props.addColor(input)
     }
-
+ 
     return (
         <div>
             <form onSubmit={handleSubmit}>
